@@ -1,0 +1,77 @@
+@charset "utf-8";
+html{
+}
+body{
+}
+/* header */
+header{
+    background: #3C4767;
+}
+
+/* main content */
+#row{
+    display: flex;
+    flex-flow: row wrap;
+}
+#container{
+    flex: 0 0 80%;
+}
+#side-bar{
+    flex: 0 0 19%;
+    border-left: 1px solid #6C6C6C;
+}
+
+.ac_menu{
+  width: 300px;
+}
+
+/* メニューの部分 */
+.ac_menu label{
+  background: #3C4767;
+  color: #fff;
+  padding: 10px;
+  display: block;
+  margin: 0;
+  cursor:pointer;
+}
+.ac_menu input[type="checkbox"].on-off{
+  display: none;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+}
+
+/* コンテンツの部分 */
+.ac_menu ul{
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+
+  margin: 0;
+  padding: 0 10px;
+  list-style: none;
+  background-color: #f5f5f5;
+}
+.ac_menu input[type="checkbox"].on-off + ul{
+  height: 0;
+  overflow: hidden;
+}
+.ac_menu input[type="checkbox"].on-off:checked + ul{
+  height: 100px;
+}
+.menu li{
+  padding: 4px 0;
+}
+
+/* トップ */
+.topic{
+  background: #fff;
+}
+
+/* 登録完了 */
+
+/* ログイン */

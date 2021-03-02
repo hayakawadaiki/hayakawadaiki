@@ -1,0 +1,88 @@
+@chasert "utf-8";
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: linear-gradient(#3C4767, #3C4767, #D1553F);
+}
+/* ヘッダー */
+.outlogo{
+  text-align: center;
+}
+header p{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* ログイン画面 */
+.inner{
+  width: 800px;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+}
+.box{
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 40px;
+}
+.box2{
+  width: 360px;
+  margin: auto;
+}
+h2{
+  color: #fff;
+  font:20px bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.category{
+  margin: 28px auto;
+  text-align: center;
+}
+.category p{
+  text-align: left;
+  margin-bottom: 4px;
+}
+.ctgr{
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+.text_form input{
+  width: 360px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: #fff;
+}
+.form_create_btn{
+  text-align: right;
+}
+.form_create_btn input:hover{
+  opacity: 0.8;
+}
+.form_create_btn input{
+  background-color: rgba(88,98,162);
+  border: none;
+  padding: 16px 52px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.back{
+  padding-top: 28px;
+  text-align: center;
+}
+.back a{
+  color: #fff;
+}
+.back p:hover{
+  opacity: 0.7;
+}
